@@ -1,1 +1,1 @@
-alert('JS file attached!')
+// alert('JS file attached!')
