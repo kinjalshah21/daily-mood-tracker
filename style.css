@@ -105,3 +105,36 @@ button:active {
     padding: 15px 10px;
     border-radius: 5px;
 }
+
+.data-showcase h3{
+    text-align: center;
+}
+
+#timeline {
+    list-style: none;
+    padding: 0;
+}
+
+#timeline li {
+    background: #E9762B;
+    color: #000;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.calender-view {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+.calender-view div {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #eee;
+    border-radius: 5px;
+}
